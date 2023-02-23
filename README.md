@@ -37,7 +37,7 @@ W polu rozdzielczości możemy podać jakoś z jaką wyświetlaną są płaszczy
 
 **Prawdopodobieństwo krzyżowania**
 
-Współczynnik opisuje prawdopodobieństwo wymiany elementów wektora, a zatem przekazania mutacji osobnikowi potomnemu. Współczynnik ten ma oznaczenie $C_r$ i ponieważ opisuje prawdopodobieństwo, to może przyjmować wartości z zakresu [0,1]. Istnieją funkcje, dla których niski spółczynnik prawdopodobieństwa jest  najbardziej efektywny. Storn i Price wykazali w swoich badaniach, że wszystkie zadania optymalizacji mogą być rozwiązane, gdy 0  $\leq C_r \leq $ 0.2 dla funkcji, dla których dekompozycja jest możliwa lub 0 $\leq C_r \leq $ 1. W ogólnym przypadku zalecane jest, aby $C_r$ było bliskie 1. W ten sposób straty wydajności związane z niską częstotliwością mutacji w populacjach potomnych są minimalizowane.
+Współczynnik opisuje prawdopodobieństwo wymiany elementów wektora, a zatem przekazania mutacji osobnikowi potomnemu. Współczynnik ten ma oznaczenie $C_r$ i ponieważ opisuje prawdopodobieństwo, to może przyjmować wartości z zakresu [0,1]. Istnieją funkcje, dla których niski spółczynnik prawdopodobieństwa jest  najbardziej efektywny. Storn i Price wykazali w swoich badaniach, że wszystkie zadania optymalizacji mogą być rozwiązane, gdy 0  $\leq$ C_r $\leq$ 0.2 dla funkcji, dla których dekompozycja jest możliwa lub 0 $\leq$ C_r $\leq$ 1. W ogólnym przypadku zalecane jest, aby $C_r$ było bliskie 1. W ten sposób straty wydajności związane z niską częstotliwością mutacji w populacjach potomnych są minimalizowane.
 
 **Pozostałe opcje**
 
